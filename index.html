@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>pj</title>
+
+	<style type="text/css">
+		.container{
+			background-image: url("children.png");
+			border: 1px solid black;
+			height: 1000px;
+			background-repeat: no-repeat;
+			background-size: cover;
+			background-position: center;
+		}
+		.parent div img{
+			width: 100px;
+		}
+		.kid1{
+			background-color: #0b8a04;
+		}
+		.kid2{
+			background-color: #8d0994;
+		}
+		.kid3{
+			background-color: #faa339;
+		}
+		.kid4{
+			background-color: #ff0000;
+		}
+		.parent div{
+			text-align: center;
+			width: 20%;
+			padding: 10px;
+			margin-right: 40px;
+			opacity: 0.9;
+		}
+		.parent{
+			display: flex;
+			justify-content: center;
+			position: relative;
+			bottom: 100px;
+		}
+	</style>
+
+</head>
+<body>
+	<div class="container"></div>
+	<div class="parent">
+
+		<div class="kid1">
+			<img src="world.png" alt="world pic">
+			<h3>Make Friends</h3>
+			<p>from all over the world</p>
+		</div>
+
+		<div class="kid2">
+			<img src="people.png">
+			<h3>Live and Study</h3>
+			<p>in a top school</p>
+		</div>
+
+		<div class="kid3">
+			<img src="book.png">
+			<h3>Expert Tuition</h3>
+			<p>in a safe secure loction</p>
+		</div>
+
+		<div class="kid4">
+			<img src="laptop.png">
+			<h3>World-class</h3>
+			<p>learning facilities</p>
+		</div>
+
+	</div>
+</body>
+</html>
